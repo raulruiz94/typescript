@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Promedio de calificaciones</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style> 
+      .alert{
+
+          visibility: hidden;
+      }
+      #btnBorrar{
+          visibility: hidden;
+      }
+</style>
+
+</head>
+  <body>
+      <h1 class="text-center">Promedio de calificacion</h1>
+
+      <div class="cotainer">
+
+        <div class="jumbotron">
+            <div class="row">
+
+                <div class="col-2">
+                    <div class="form-group">
+                    <label for="">Matricula</label>
+                    <input id="matricula" type="number" placeholder="Matricula" class="form-control" >
+                </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group">
+                    <label for="">Calificacion</label>
+                    <input id="calificacion1" type="number" placeholder="Calificacion" class="form-control" >
+                </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group">
+                    <label for="">Calificacion</label>
+                    <input id="calificacion2" type="number" placeholder="Calificacion" class="form-control" >
+                </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group">
+                    <label for="">Calificacion</label>
+                    <input id="calificacion3"type="number" placeholder="Calificacion" class="form-control" >
+                </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group">
+                    <label for="">Calificacion</label>
+                    <input id="calificacion4"type="number" placeholder="Calificacion" class="form-control" >
+                </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group">
+                    <label for="">Calificacion</label>
+                    <input id="calificacion5" type="number" placeholder="Calificacion" class="form-control" >
+
+                </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                 <button id="btn" class=" btn btn-primary btn-block mt-3">Promedio</button>
+                </div>
+                </div>
+                <div class="col-5">
+                    <div class="form-group">
+                 <button id="btnBorrar" class=" btn btn-primary btn-block mt-3">Borrar</button>
+                </div>
+                </div>
+
+               <div id="ImprimirMatricula" class="alert alert-primary mt-3" role="alert">
+
+
+              
+               </div>
+               <div id="ImprimirPromedio" class="alert alert-primary mt-3 alert2" role="alert">
+            </div>
+            
+        </div>
+        
+      </div>
+      
+
+
+    <script src="./../js/app.js"></script>
+  </body>
+</html>
