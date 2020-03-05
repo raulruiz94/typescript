@@ -33,23 +33,23 @@ function crearDom() {
 	button.setAttribute('id', 'btnCalcularSuma');
 	button.setAttribute('class', 'btn btn-primary btn-block');
 
-	output.appendChild(button);
-	addEvent();
+    output.appendChild(button);
+    addEvent();
 }
 
 function addEvent() {
-	button = document.getElementById('btnCalcularSuma');
-	button.addEventListener('click', suma);
+    button = document.getElementById('btnCalcularSuma');
+    button.addEventListener('click', suma);
 }
 function suma() {
-	let acumulador = 0;
+    let acumulador = 0;
 	for (let i = 1; i <= 5; i++) {
 
-		let numero = Number(document.getElementById(`inpNumero${i}`).value);
+        let numero = Number(document.getElementById(`inpNumero${i}`).value);
 
-		acumulador = acumulador + numero;
+        acumulador = acumulador + numero;
 
-	}
-	alert(acumulador);
+    }
+console.log(acumulador);
 }
 crearDom();
